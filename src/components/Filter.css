@@ -1,0 +1,41 @@
+.chipsInputRole {
+  width: fit-content;
+  min-width: 240px;
+  border-radius: 4px;
+}
+.chipsInputEmployee {
+  width: fit-content;
+  min-width: 300px;
+  border-radius: 4px;
+}
+.chipsInputExperience {
+  width: fit-content;
+  min-width: 200px;
+  border-radius: 4px;
+}
+.chipsInputRemote {
+  width: fit-content;
+  min-width: 200px;
+  border-radius: 4px;
+}
+.chipsInputSalary {
+  width: fit-content;
+  min-width: 300px;
+  border-radius: 4px;
+}
+.searchBar {
+  width: 300px !important;
+}
+
+.filter-row {
+  display: flex;
+  margin-bottom: 8px; /* Add margin between rows */
+}
+.filter-row > * {
+  margin-right: 8px; /* Add margin between elements */
+}
+.filters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
