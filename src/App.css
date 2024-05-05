@@ -1,5 +1,13 @@
 .container {
-  padding: 32px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 columns */
+  gap: 40px; /* Adjust gap between cards as needed */
 }
 
 .App-logo {
