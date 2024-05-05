@@ -15,43 +15,47 @@ const Filter = () => {
     { title: "Frontend", year: 1994 },
     { title: "Tech Lead", year: 1994 },
   ];
+  
   const employeeOptions = [
-    { title: "1-10", year: 1994 },
-    { title: "11-20", year: 1972 },
-    { title: "21-50", year: 1974 },
-    { title: "51-100", year: 2008 },
-    { title: "101-200", year: 1957 },
-    { title: "201-500", year: 1993 },
-    { title: "500+", year: 1994 },
+    { title: "1-10", selected: false },
+    { title: "11-20", selected: false },
+    { title: "21-50", selected: false },
+    { title: "51-100", selected: false },
+    { title: "101-200", selected: false },
+    { title: "201-500", selected: false },
+    { title: "500+", selected: false },
   ];
+  
   const experienceOptions = [
-    { title: "1", year: 1994 },
-    { title: "2", year: 1972 },
-    { title: "3", year: 1974 },
-    { title: "4", year: 2008 },
-    { title: "5", year: 1957 },
-    { title: "6", year: 1993 },
-    { title: "7", year: 1994 },
-    { title: "8", year: 1994 },
-    { title: "9", year: 1994 },
-    { title: "10", year: 1994 },
+    { title: "1", selected: false },
+    { title: "2", selected: false },
+    { title: "3", selected: false },
+    { title: "4", selected: false },
+    { title: "5", selected: false },
+    { title: "6", selected: false },
+    { title: "7", selected: false },
+    { title: "8", selected: false },
+    { title: "9", selected: false },
+    { title: "10", selected: false },
   ];
+  
   const remoteOptions = [
-    { title: "Remote", year: 1994 },
-    { title: "Hybrid", year: 1972 },
-    { title: "In-office", year: 1974 },
+    { title: "Remote", selected: false },
+    { title: "Hybrid", selected: false },
+    { title: "In-office", selected: false },
   ];
+  
   const salaryOptions = [
-    { title: "1L", year: 1994 },
-    { title: "10L", year: 1972 },
-    { title: "20L", year: 1974 },
-    { title: "30L", year: 1974 },
-    { title: "40L", year: 1974 },
-    { title: "50L", year: 1974 },
-    { title: "60L", year: 1974 },
-    { title: "70L", year: 1974 },
+    { title: "1L", selected: false },
+    { title: "10L", selected: false },
+    { title: "20L", selected: false },
+    { title: "30L", selected: false },
+    { title: "40L", selected: false },
+    { title: "50L", selected: false },
+    { title: "60L", selected: false },
+    { title: "70L", selected: false },
   ];
-
+  
   return (
     <div className="filters">
       <div className="filter-row">

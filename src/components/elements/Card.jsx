@@ -1,12 +1,11 @@
 import "./Card.css";
-import Time from "../assets/Time.svg";
 import { Button } from "@mui/material";
 const Card = ({ data }) => {
   return (
     <div className="card">
       <div className="timing">⏳ Posted 10 days ago</div>
       <div className="header1">
-        <img className="cardImage" src={data.logoUrl} />
+        <img className="cardImage" src={data.logoUrl} alt=""/>
         <div className="heading">
           <div className="companyName">{data.companyName || ""}</div>
           <div className="designation">{data.jobRole || ""}</div>
